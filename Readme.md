@@ -47,7 +47,7 @@ The system uses a strict retrieval-based approach, ensuring answers are grounded
 
 ```
 ┌─────────────────────────────────────────────────────────────────────────────┐
-│                              SupportAI Architecture                          │
+│                              SupportAI Architecture                         │
 └─────────────────────────────────────────────────────────────────────────────┘
 
                               ┌──────────────┐
@@ -99,12 +99,12 @@ The system uses a strict retrieval-based approach, ensuring answers are grounded
                                               │ ┌─────────────┐ │
                                               │ │   Email     │ │
                                               │ │ Notifier    │ │
-                                              │ │(if no answer)│
+                                              │ │(if no answer) │
                                               │ └─────────────┘ │
                                               └─────────────────┘
 
 ┌─────────────────────────────────────────────────────────────────────────────┐
-│                            External Services                                 │
+│                            External Services                                │
 ├─────────────────┬─────────────────┬─────────────────┬───────────────────────┤
 │   Firecrawl     │     Qdrant      │     Ollama      │    SMTP Server        │
 │  (Web Scraping) │ (Vector Store)  │  (Local LLM)    │   (Email Alerts)      │
